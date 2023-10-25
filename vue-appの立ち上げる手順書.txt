@@ -1,0 +1,40 @@
+
+＜手順書＞
+初めに ターミナルに　cd C:\Users\shure\Documents\vue-appを書いて
+
+PS C:\Users\shure\Documents\vue-app>が出てきたら
+
+ yarn serveを書くと
+
+$ vue-cli-service serve
+ INFO  Starting development server...
+
+
+ DONE  Compiled successfully in 6144ms                                                                           9:13:43
+
+  App running at:
+  - Local:   http://localhost:8080
+  - Network: http://192.168.23.47:8080
+
+  Note that the development build is not optimized.
+  To create a production build, run npm run build.が表示されるので
+その中にある
+http://localhost:8080でvueが操作　出来るようになる
+
+
+＜全体図＞
+PS C:\Users\shure\Documents> cd C:\Users\shure\Documents\vue-app
+PS C:\Users\shure\Documents\vue-app> yarn serve
+yarn run v1.22.19
+$ vue-cli-service serve
+ INFO  Starting development server...
+
+
+ DONE  Compiled successfully in 6144ms                                                                           9:13:43
+
+  App running at:
+  - Local:   http://localhost:8080
+  - Network: http://192.168.23.47:8080
+
+  Note that the development build is not optimized.
+  To create a production build, run npm run build.
